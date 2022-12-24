@@ -40,17 +40,19 @@
                         </div>
                         <div id="phone-contiainer" class="form-pair">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                         </div>
                     </div>
                     <div class="form-row" id="pwd-repeat-pwd">
                         <div id="pwd-container" class="form-pair">
                             <label for="pwd">Password</label>
-                            <input type="password" id="pwd" name="pwd">
+                            <input type="password" id="pwd" name="pwd" minlength="8" required>
+                            <small class="error-text">*</small>
                         </div>
                         <div id="repeat-pwd-container" class="form-pair">
                             <label for="repeat-pwd">Repeat Password</label>
-                            <input type="password" id="rep-pwd" name="rep-pwd">
+                            <input type="password" id="rep-pwd" name="rep-pwd" minlength="8" required>
+                            <small class="error-text">*</small>
                         </div>
                     </div>
                 </div>
