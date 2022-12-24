@@ -19,34 +19,40 @@
             <h2>Let's do this!</h2>
             <form>
                 <div class="question-container">
-                    <div id="fname-container" class="form-row">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name">
+                    <div class="form-row" id="fname-lname">
+                        <div id="fname-container" class="form-pair">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div id="lname-container" class="form-pair">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
                     </div>
-                    <div id="lname-container" class="form-row">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                    <div class="form-row" id="email-phone">
+                        <div id="email-container" class="form-pair">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div id="phone-contiainer" class="form-pair">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
                     </div>
-                    <div id="email-container" class="form-row">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div id="phone-contiainer" class="form-row">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div id="pwd-container" class="form-row">
-                        <label for="pwd">Password</label>
-                        <input type="password" id="pwd" name="pwd">
-                    </div>
-                    <div id="repeat-pwd-container" class="form-row">
-                        <label for="repeat-pwd">Repeat Password</label>
-                        <input type="password" id="rep-pwd" name="rep-pwd">
+                    <div class="form-row" id="pwd-repeat-pwd">
+                        <div id="pwd-container" class="form-pair">
+                            <label for="pwd">Password</label>
+                            <input type="password" id="pwd" name="pwd">
+                        </div>
+                        <div id="repeat-pwd-container" class="form-pair">
+                            <label for="repeat-pwd">Repeat Password</label>
+                            <input type="password" id="rep-pwd" name="rep-pwd">
+                        </div>
                     </div>
                 </div>
                 <div class="button-container">
-                    <label for="create-account">Create Account</label>
-                    <input type="submit" id="create-account" name="create-account">
+                    <br>
+                    <button type="submit" id="create-account">Create Account</button>
                     <p>Already have an account? <a href="#">Log in</a></p>
                 </div>
             </form>

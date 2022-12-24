@@ -20,4 +20,16 @@ body {
 .signup-form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.form-pair {
+    display: flex;
+    flex-direction: column;
 }
