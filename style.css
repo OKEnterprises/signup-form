@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    flex-grow: 1;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    flex-grow: 2;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
